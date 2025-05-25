@@ -10,7 +10,7 @@ Este repositorio contiene un archivo `.ipynb` que permite analizar datos de vent
 
 2. **Bibliotecas Necesarias:** Instalar las siguientes bibliotecas con `pip`:
 
-   ```bash
+ ```bash
    pip install pandas folium matplotlib
 ````
 
