@@ -1,6 +1,3 @@
-
-
-````markdown
 # Análisis Geográfico y de Costos de Envió - Proyecto
 
 Este repositorio contiene un archivo `.ipynb` que permite analizar datos de ventas y costos de envío de diversas tiendas, utilizando visualizaciones geográficas y estadísticas. El proyecto integra herramientas como Folium para mapas interactivos y matplotlib para visualizaciones adicionales. Este documento explica cómo utilizar el archivo y personalizar el análisis.
@@ -12,8 +9,6 @@ Este repositorio contiene un archivo `.ipynb` que permite analizar datos de vent
 El repositorio contiene los siguientes archivos:
 
 - `analisis_geografico.ipynb`: Notebook principal con el análisis de datos y visualizaciones.
-- `data/ventas.csv`: Archivo de datos que contiene información sobre las ventas (modifique según su caso).
-- `output/mapa.html`: Archivo generado con el mapa interactivo (puede personalizarlo para guardar en otro formato).
 - `LICENSE`: Detalles de la licencia del proyecto.
 
 ---
@@ -24,7 +19,7 @@ El repositorio contiene los siguientes archivos:
 
 2. **Bibliotecas Necesarias:** Instalar las siguientes bibliotecas con `pip`:
 
-   ```bash
+```bash
    pip install pandas folium matplotlib
 ````
 
