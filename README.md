@@ -35,7 +35,7 @@ git clone https://github.com/usuario/proyecto-analisis-geografico.git
 
 ### 2. **Abrir el Archivo en Jupyter Notebook**
 
-Accede al directorio clonado y abre el archivo `.ipynb` en Jupyter Notebook o Jupyter Lab:
+Accede al directorio clonado y abre el archivo `.ipynb` en Jupyter Notebook, Jupyter Lab o Google Colaboratory:
 
 ```bash
 cd proyecto-analisis-geografico
@@ -77,33 +77,6 @@ Ejecute cada celda secuencialmente para generar:
 2. **Modificar Parámetros:** Personalice el radio del Heatmap o los colores de los marcadores en Folium según las preferencias.
 3. **Exportar Resultados:** Genere archivos de salida con los mapas o las visualizaciones gráficas en formato PNG o HTML.
 
----
-
-## **Ejemplo de Uso**
-
-```python
-import folium
-from folium.plugins import HeatMap
-import pandas as pd
-
-# Cargar datos
-datos = {
-    'Producto': ['Asistente virtual', 'Mesa de comedor'],
-    'lat': [4.60971, 6.25184],
-    'lon': [-74.08175, -75.56359]
-}
-df = pd.DataFrame(datos)
-
-# Crear mapa base
-mapa = folium.Map(location=[4.60971, -74.08175], zoom_start=6)
-
-# Agregar marcadores
-for _, row in df.iterrows():
-    folium.Marker(location=[row['lat'], row['lon']], popup=row['Producto']).add_to(mapa)
-
-# Guardar el mapa como HTML
-mapa.save('mapa.html')
-```
 
 ---
 
