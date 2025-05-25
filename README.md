@@ -1,15 +1,10 @@
-¡Por supuesto! Aquí tienes el README.md modificado, incorporando todas las sugerencias de mejora que te propuse. Puedes copiar y pegar este contenido directamente en tu archivo README.md. Si quieres hacer ajustes específicos, dime qué sección adaptar.
-
----
-
-```markdown
 # Análisis Geográfico y de Costos de Envío
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## 📦 Descripción
 
-Este proyecto permite analizar datos de ventas y costos de envío de tiendas utilizando Python y Jupyter Notebook. Podrás visualizar la geolocalización de ventas, comparar costos entre tiendas y obtener ideas clave sobre el desempeño comercial mediante mapas interactivos, heatmaps y gráficos estadísticos.
+Este proyecto permite analizar datos de ventas y costos de envío de tiendas utilizando Python y librerias como Pandas, Matplotlib y folium. Podrás visualizar la geolocalización de ventas, comparar costos entre tiendas y obtener ideas clave sobre el desempeño comercial mediante mapas interactivos, heatmaps y gráficos estadísticos.
 
 ---
 
@@ -26,8 +21,6 @@ Este proyecto permite analizar datos de ventas y costos de envío de tiendas uti
 
 - `analisis_geografico.ipynb`: Notebook principal con el análisis y las visualizaciones.
 - `LICENSE`: Detalles de la licencia MIT del proyecto.
-- `assets/`: Imágenes y recursos gráficos usados en el proyecto.
-- `data/`: Carpeta sugerida para colocar tus archivos de datos (opcional).
 
 ---
 
@@ -39,7 +32,7 @@ Este proyecto permite analizar datos de ventas y costos de envío de tiendas uti
 git clone https://github.com/ARTAA123/Challenge-Alura-Store.git
 cd Challenge-Alura-Store
 ```
-
+En el caso de usar Google Colaboratory solo descarga el archivo con extención .ipynb y cargalo a Colaboratory.
 ### 2. Instala las dependencias
 
 Asegúrate de tener Python 3.7 o superior y ejecuta:
