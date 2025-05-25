@@ -92,8 +92,3 @@ Se aceptan contribuciones para mejorar el análisis o agregar nuevas funcionalid
 ## **Licencia**
 
 Este proyecto está bajo la licencia MIT. Consulte el archivo `LICENSE` para obtener más información.
-
-```
-
-¿Quieres implementar los cambios sugeridos en tu README?
-```
