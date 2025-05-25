@@ -19,7 +19,7 @@ Este proyecto permite analizar datos de ventas y costos de envío de tiendas uti
 
 ## 🗂️ Estructura del Proyecto
 
-- `analisis_geografico.ipynb`: Notebook principal con el análisis y las visualizaciones.
+- `AlluraStoreLatam.ipynb`: Notebook principal con el análisis y las visualizaciones.
 - `LICENSE`: Detalles de la licencia MIT del proyecto.
 
 ---
